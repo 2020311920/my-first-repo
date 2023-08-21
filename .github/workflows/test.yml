@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - '*'
 
 jobs:
   run-hjk-test-v1:
@@ -14,7 +17,6 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Set User Information
-      if: github.event_name == 'push'
       id: user_info_push
       run: |
         USER_NAME=$(git log -1 --pretty=format:'%an')
