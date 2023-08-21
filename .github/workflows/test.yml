@@ -61,6 +61,7 @@ jobs:
         msg-template: "feed"
         repo-url: "https://github.com/hyeonjeong-ko/test-marketplace"
         msg-img: "https://item.kakaocdn.net/do/416976b0c05bde28d706525b7c6c97ed41d1a2caccd0c566eab28b91e2e5d306"
+
         
         event_name: ${{ github.event_name }}
         MERGED_STATUS: ${{ github.event.pull_request.merged }}
