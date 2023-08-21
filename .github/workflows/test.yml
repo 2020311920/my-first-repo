@@ -54,7 +54,7 @@ jobs:
       uses: hyeonjeong-ko/packiging-test@7.4
       with:
         test-variable: "도커 7.4!!!!!!!강성철이 현정이에게"
-        send-to-function: "send_to_me"
+        send-to-function: "send_to_friends"
         rest-api-key: "152831f2d43d3d3c3b003a24ec2fa088"
         access-token: "JMStwWRZP369t5LiLCRc_nOlnxDcDJpcRQwCJzheCj10mQAAAYoYr6WV"
         refresh-token: "oHemIwSYyb2OJz5nSX7qQKUTIhQ2w1Pokyooj_XjCj10mQAAAYoYr6WU"
