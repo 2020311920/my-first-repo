@@ -3,7 +3,7 @@ name: My GitHub Action
 on:
   push:
     branches:
-      - main
+      - '*'
   pull_request:
     branches:
       - '*'
